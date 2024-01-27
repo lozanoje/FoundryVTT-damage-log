@@ -144,6 +144,26 @@ class DamageLog {
 				min: "health.min",
 				max: "health.max"
 			}
+		},
+		ac2d20: {
+			stress: {
+				value: "stress.value",
+				max: "stress.max"
+			},
+			injuries: {
+				invert: false,
+				value: "injuries.value",
+				max: "injuries.count"
+			},
+			fortune: {
+				invert: false,
+				value: "fortune.value",
+				max: "fortune.max"
+			},
+			fatigue: {
+				invert: false,
+				value: "fatigue"
+			}
 		}
 	};
 
