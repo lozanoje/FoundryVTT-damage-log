@@ -147,11 +147,12 @@ class DamageLog {
 		},
 		ac2d20: {
 			stress: {
+				invert: true,
 				value: "stress.value",
 				max: "stress.max"
 			},
 			injuries: {
-				invert: false,
+				invert: true,
 				value: "injuries.value",
 				max: "injuries.count"
 			},
@@ -161,7 +162,7 @@ class DamageLog {
 				max: "fortune.max"
 			},
 			fatigue: {
-				invert: false,
+				invert: true,
 				value: "fatigue"
 			}
 		}
